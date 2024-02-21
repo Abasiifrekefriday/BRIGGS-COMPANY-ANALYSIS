@@ -135,7 +135,9 @@ where [Sub-Category] = 'phones'
 group by  DATEPART(year,[Order Date])
 order by total_sales desc
 ```
-![QUERY 5  MARKETING DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/cda22431-2a44-4f4b-b023-8871fe50a140)
+
+![QUERY 5  SUPERSTORE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/e3fa2ad3-7055-4b11-a4f5-e86fc4ddb570)
+
 
 
 -THE DIRECTION OF ANALYTICS IN BRIGGS COMPANY HAS REQUESTED FOR A DETAILED ANALYSIS.TO FULFILL HIS REQUEST, HE NEEDS YOU TO GENERATE A TABLE THAT DISPLAYS PROFIT MARGIN FOR EACH SEGMENT
@@ -146,8 +148,8 @@ FROM Orders
 group by Segment
 ORDER BY profit_margin desc
 ```
-![QUERY 5  SUPERSTORE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/a784f115-f5f3-4791-a4a1-cfe2259861f1)
 
+![QUERY 6  SUPERSTORE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/d44fcfc1-cb65-4ff0-8b28-739e5728557b)
 
 
 -THECOMPANY STARTED CONSULTING FOR MICROBANK WHO NEEDS TO ANALYSE THEIR MARKETING DATA TO UNDERSTAND THEIR CUSTOMER BETTER. THIS WILL HELP THEM PLAN THEIR NEXT MARKETING
@@ -207,7 +209,8 @@ group by housing, loan, marital
 order by total_customers
 ```
 
-![QUERY 5  EMPLOYEE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/facb8322-f185-4ac9-97ac-f3c8cc806dc7)
+![QUERY 5  MARKETING DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/c16940be-bb61-4bc1-b731-987cd6df4d34)
+
 
 
 -write a query to show the movie title with the runtime of atleast 250
@@ -250,7 +253,8 @@ USE SUPERSTORE
  GROUP BY State
  order by average_days
 ```
-![QUERY 6  SUPERSTORE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/35ff6a58-a5bc-4c1d-b56e-978778106690)
+
+![QUERY 7  SUPERSTORE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/8d069e32-d34a-4859-8092-d52e95b4d0b1)
 
  
 -Your company recieved a lot of bad reviews about somes of your products lately and the management wants to see which products they are and how many have been returned so far. write a query to see the top 5 most returened products from the company
