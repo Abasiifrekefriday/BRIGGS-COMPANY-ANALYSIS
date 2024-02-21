@@ -18,7 +18,6 @@ AND runtime > 100
 ```
 
 
-
 -WRITE A QUERY TO SHOW HOW MANY PIZZAS WERE ORDERED
 
 ```sql
@@ -188,7 +187,9 @@ salary,
 (salary - (select avg(salary) from Employee_data)) as salary_difference
 from Employee_data
 ```
-![](images/OUTPUT.png)
+
+![QUERY 1  EMPLOYEE DATA](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/fb47ae8e-a46e-48ce-9809-10c1065413fa)
+
 -write a query to show a table that displays the highest daily increase and the highest daily decrease
 ```sql
 select round(max(_close - _open), 2) as highest_daily_increase,
