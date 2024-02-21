@@ -296,6 +296,7 @@ USE SUPERSTORE
  from Employee_data
 ```
 
+![Screenshot (127)](https://github.com/Abasiifrekefriday/BRIGGS-COMPANY-ANALYSIS/assets/108738787/23158634-9d15-4493-88aa-52894844f1a5)
 
 
 
