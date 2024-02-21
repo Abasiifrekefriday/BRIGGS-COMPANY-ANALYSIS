@@ -188,6 +188,7 @@ salary,
 (salary - (select avg(salary) from Employee_data)) as salary_difference
 from Employee_data
 ```
+![](images/OUTPUT.png)
 -write a query to show a table that displays the highest daily increase and the highest daily decrease
 ```sql
 select round(max(_close - _open), 2) as highest_daily_increase,
